@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChisatoIGDL - Premium Instagram Downloader</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fab fa-instagram"></i>
+                <h1>ChisatoIGDL</h1>
+            </div>
+            <p class="tagline">Download Instagram content in HD quality with lightning speed!</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <i class="fas fa-download"></i>
+                    <span class="counter" data-target="1250000">1,250,000+</span>
+                    <span>Downloads</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-users"></i>
+                    <span class="counter" data-target="85000">85,000+</span>
+                    <span>Users</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="card input-card">
+                <h2><i class="fas fa-cloud-download-alt"></i> Download Content</h2>
+                <div class="input-section">
+                    <div class="input-group">
+                        <i class="fas fa-link"></i>
+                        <input type="text" id="url-input" placeholder="Paste Instagram URL here...">
+                    </div>
+                    <button id="download-btn" class="glow-button">
+                        <i class="fas fa-download"></i> Download Now
+                    </button>
+                </div>
+                <div class="supported-types">
+                    <span><i class="fas fa-check-circle"></i> Posts</span>
+                    <span><i class="fas fa-check-circle"></i> Reels</span>
+                    <span><i class="fas fa-check-circle"></i> Stories</span>
+                    <span><i class="fas fa-check-circle"></i> IGTV</span>
+                </div>
+            </div>
+
+            <div class="result-section hidden">
+                <div class="card loading-card">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <h3>Processing Your Request</h3>
+                        <p>We're fetching your Instagram content at lightning speed!</p>
+                    </div>
+                </div>
+
+                <div class="card results-card hidden">
+                    <div class="results">
+                        <div class="media-preview"></div>
+                        <div class="download-options">
+                            <h3><i class="fas fa-download"></i> Download Options</h3>
+                            <div class="options-grid"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card error-card hidden">
+                    <div class="error">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <h3>Oops! Something went wrong</h3>
+                        <p class="error-message"></p>
+                        <button class="retry-btn">Try Again</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features">
+                <h2><i class="fas fa-star"></i> Why Choose ChisatoIGDL?</h2>
+                <div class="features-grid">
+                    <div class="feature">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Lightning Fast</h3>
+                        <p>Download content in seconds with our high-speed servers</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-lock"></i>
+                        <h3>100% Secure</h3>
+                        <p>Your data is safe with us - no login required</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-highlighter"></i>
+                        <h3>High Quality</h3>
+                        <p>Get the highest resolution available for all downloads</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile Friendly</h3>
+                        <p>Works perfectly on all devices and screen sizes</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ChisatoIGDL</h3>
+                    <p>The ultimate Instagram downloader tool for all your content needs.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2023 ChisatoIGDL. All Rights Reserved. Not affiliated with Instagram.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
